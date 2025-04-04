@@ -76,7 +76,7 @@ if __name__ == "__main__":
     # 절대 경로 사용 권장
     current_dir = os.path.dirname(os.path.abspath(__file__))
     input_video = os.path.join(current_dir, "../video/video_1.mp4")  # 원본 동영상
-    output_video = os.path.join(current_dir, "output.mp4")  # 결과물
+    output_video = os.path.join(current_dir, "../video/output.mp4")  # 결과물
 
     try:
         save_processed_video(input_video, output_video)
